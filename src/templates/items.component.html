@@ -1,0 +1,19 @@
+<div>
+  <!-- <ul ng-repeat="item in $ctrl.items">
+    <li>{{ item.name }} - {{ item.description }}</li>
+  </ul> -->
+
+  <table>
+    <tr>
+      <td>Name</td>
+      <td>Description</td>
+      <td>LargePrice</td>
+    </tr>
+    <tr ng-repeat="item in $ctrl.items">
+      <td>{{ item.name }}</td>
+      <td>{{ item.description }}</td>
+      <td>{{ item.price_large }}</td>
+    </tr>
+  </table>
+
+</div>
